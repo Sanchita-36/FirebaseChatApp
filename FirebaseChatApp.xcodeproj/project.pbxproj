@@ -14,6 +14,7 @@
 		995F252C292E55960005E6F0 /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 995F252B292E55960005E6F0 /* FacebookGamingServices */; };
 		995F252E292E55960005E6F0 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 995F252D292E55960005E6F0 /* FacebookLogin */; };
 		995F2530292E55960005E6F0 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 995F252F292E55960005E6F0 /* FacebookShare */; };
+		9972BD462934DE87005F9771 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9972BD452934DE87005F9771 /* StorageManager.swift */; };
 		998CD40E292E45C900023007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CD40D292E45C900023007 /* AppDelegate.swift */; };
 		998CD410292E45C900023007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CD40F292E45C900023007 /* SceneDelegate.swift */; };
 		998CD415292E45C900023007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998CD413292E45C900023007 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		6D4B7F7B5CF4692B60499EAB /* Pods-FirebaseChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatApp.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseChatApp/Pods-FirebaseChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7952DB880D7A23F998B32797 /* Pods_FirebaseChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9920BF4C292FC59400F56C35 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		9972BD452934DE87005F9771 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		998CD40A292E45C900023007 /* FirebaseChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		998CD40D292E45C900023007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		998CD40F292E45C900023007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				998CD40D292E45C900023007 /* AppDelegate.swift */,
 				998CD438292E48CA00023007 /* DatabaseManager.swift */,
 				998CD439292E48CA00023007 /* Extensions.swift */,
+				9972BD452934DE87005F9771 /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				998CD43B292E48CA00023007 /* Extensions.swift in Sources */,
 				9920BF4D292FC59400F56C35 /* ChatsViewController.swift in Sources */,
 				998CD436292E485700023007 /* PhotoViewerViewController.swift in Sources */,
+				9972BD462934DE87005F9771 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
