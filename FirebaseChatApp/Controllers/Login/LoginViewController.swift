@@ -196,6 +196,9 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
             }
             
             let user = result.user
+            
+            UserDefaults.standard.set(email, forKey: "email")
+            
             print("Logged in User:  \(user)")
             strongSelf.navigationController?.dismiss(animated: true)
         }
@@ -260,6 +263,8 @@ extension LoginViewController: LoginButtonDelegate {
                 print("Failed to return email and name from fb result")
                 return
             }
+            
+            UserDefaults.standard.set(email, forKey: "email")
             
             //            let nameComponents = userName.components(separatedBy: " ")
             //            guard nameComponents.count == 2 else {
