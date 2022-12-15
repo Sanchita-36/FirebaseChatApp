@@ -30,6 +30,7 @@
 		998CD43A292E48CA00023007 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CD438292E48CA00023007 /* DatabaseManager.swift */; };
 		998CD43B292E48CA00023007 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CD439292E48CA00023007 /* Extensions.swift */; };
 		998CD43D292E4A3100023007 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 998CD43C292E4A3100023007 /* GoogleService-Info.plist */; };
+		99DC0791294B27E600C8B68B /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC0790294B27E600C8B68B /* ConversationTableViewCell.swift */; };
 		D79F12E1A4078B7173EED33C /* Pods_FirebaseChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7952DB880D7A23F998B32797 /* Pods_FirebaseChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		998CD438292E48CA00023007 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		998CD439292E48CA00023007 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		998CD43C292E4A3100023007 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99DC0790294B27E600C8B68B /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				998CD428292E481300023007 /* Storyboards */,
 				998CD416292E45CB00023007 /* Assets.xcassets */,
+				99DC0790294B27E600C8B68B /* ConversationTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				998CD437292E485700023007 /* VideoPlayerViewController.swift in Sources */,
 				998CD410292E45C900023007 /* SceneDelegate.swift in Sources */,
 				998CD43B292E48CA00023007 /* Extensions.swift in Sources */,
+				99DC0791294B27E600C8B68B /* ConversationTableViewCell.swift in Sources */,
 				9920BF4D292FC59400F56C35 /* ChatsViewController.swift in Sources */,
 				998CD436292E485700023007 /* PhotoViewerViewController.swift in Sources */,
 				9972BD462934DE87005F9771 /* StorageManager.swift in Sources */,
